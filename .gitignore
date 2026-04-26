@@ -1,1 +1,26 @@
+# Кэш данных (тяжёлые файлы, генерируются автоматически)
+cache_prices.csv
+cache_returns_tr.csv
 
+# Веса нейросетей (слишком тяжёлые для GitHub)
+checkpoints/*.pt
+
+# Чекпоинт бэктеста (генерируется при запуске)
+checkpoints/backtest_main.json
+
+# Мета-файлы обучения (опционально — можно оставить)
+# checkpoints/*_meta.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Google Colab
+.config/
+drive/
+
+# OS
+.DS_Store
+Thumbs.db
